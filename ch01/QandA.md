@@ -44,4 +44,13 @@ strncpy( output + ouput_col, input + columns[col], nchars);
 ```
 strcpy函数只接受两个参数, 所以它实际上所复制的字符数由第二个参数指定。在本程序中, 如果用strcpy函数取代strncpy函数会出现什么结果？
 
-strncpy指定复制的字符数, 如果
+strncpy指定复制的字符数, 如果使用strcpy的话, 则是直接从目标起始处复制到结尾。
+
+# Q8
+> rearrange 程序中包含下面的语句
+```c
+while( gets( input ) != NULL)
+``
+你认为这段代码可能会出现什么问题?
+
+gets并不能保证最大输入字符数, 会溢出。

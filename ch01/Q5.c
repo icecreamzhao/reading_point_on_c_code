@@ -15,17 +15,17 @@
 
 int main()
 {
-				int quantity, price;
-				if (scanf("%d", &quantity) == 1 && scanf("%d", &price) == 1)
-				{
-								printf("%d\t%d\n", quantity, price);
-				}
-				int ch;
-				if ((ch = getchar() != EOF) && ch != '\n')
-								;
-				char s[MAX_INPUT];
-				if (fgets(s, MAX_INPUT, stdin) != NULL)
-				{
-								printf("%s\n", s);
-				}
+    int quantity, price;
+	if (scanf("%d", &quantity) == 1 && scanf("%d", &price) == 1)
+	{
+					printf("%d\t%d\n", quantity, price);
+	}
+	int ch;
+	if ((ch = getchar() != EOF) && ch != '\n')
+					;
+	char s[MAX_INPUT];
+	if (fgets(s, MAX_INPUT, stdin) != NULL)
+	{
+					printf("%s\n", s);
+	}
 }

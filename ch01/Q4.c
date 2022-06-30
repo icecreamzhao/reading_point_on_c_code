@@ -11,6 +11,6 @@
 
 int main()
 {
-				printf("%d %s %.2f\n", 1, "hello, world", 0.2);
-				return 0;
+    printf("%d %s %.2f\n", 1, "hello, world", 0.2);
+	return 0;
 }
